@@ -1,0 +1,29 @@
+{
+  "name": "sg2",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "modernizr": "~2.8.1",
+    "bootstrap-material-design": "^0.5.9",
+    "flip": "^1.0.20",
+    "animate.css": "^3.5.1",
+    "wow": "^1.1.2",
+    "font-awesome": "fontawesome#^4.5.0",
+    "headroom.js": "^0.7.0",
+    "vegas": "^2.2.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "dist/fonts/*"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}

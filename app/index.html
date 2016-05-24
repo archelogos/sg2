@@ -1,0 +1,554 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sergio Gordillo | Frontend Engineer, Blogger</title>
+
+    <meta name="author" content="Sergio Gordillo" />
+    <meta name="description" content="Soy Sergio Gordillo. Me gusta lo que hago, y se nota. Aprender se me da bien, y no dejo de hacerlo. Intento ser diferente, y a veces lo consigo"/>
+    <meta name="keywords" content="sergio, sergio gordillo, frontend engineer, blog sergio gordillo, developer, blogger, web"/>
+    <meta name="robots" content="index, follow" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#37fff1">
+
+    <meta property="og:url" content="http://www.sergiogordillo.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sergio Gordillo | Frontend Engineer, Blogger" />
+    <meta property="og:description" content="Soy Sergio Gordillo. Me gusta lo que hago, y se nota. Aprender se me da bien, y no dejo de hacerlo. Intento ser diferente, y a veces lo consigo" />
+    <meta property="og:image" content="http://www.sergiogordillo.com/images/SG.jpg" />
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.css" />
+    <link rel="stylesheet" href="/bower_components/bootstrap-material-design/dist/css/ripples.css" />
+    <link rel="stylesheet" href="/bower_components/animate.css/animate.css" />
+    <link rel="stylesheet" href="/bower_components/vegas/dist/vegas.min.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300|Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+      <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KT6JC3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KT6JC3');</script>
+    <!-- End Google Tag Manager -->
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <section id="initial-loader" class="section initial-loader">
+        <div class="element">
+            SG<span class="dot">.</span>
+        </div>
+    </section>
+
+    <section id="game" class="section game" style="display:none;">
+        <div class="overlay"></div>
+            <!--Mobile-->
+            <div class="visible-xs">
+                <div class="row margin0 game-m-row" style="margin:2vh 0 1vh 0;">
+                    <div class="col-xs-4 game-m-col">
+                        <div id="mcard1" class="game-m-card">
+                            <div class="card front bg-black">
+                                1
+                            </div>
+                            <div class="card bg-blue-1 text">
+                                If
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 game-m-col">
+                        <div id="mcard2" class="game-m-card">
+                            <div class="card bg-black">
+                                2
+                            </div>
+                            <div class="card bg-blue-1 text">
+                                You
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 game-m-col">
+                        <div id="mcard3" class="game-m-card">
+                            <div class="card bg-black">
+                                3
+                            </div>
+                            <div class="card bg-blue-1 text">
+                                Want
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin0 game-m-row">
+                    <div class="col-xs-12 game-m-col">
+                        <div id="mcard4" class="game-m-card">
+                            <div class="card bg-black">
+                                4
+                            </div>
+                            <div class="card bg-blue-2 text">
+                                It
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin0 game-m-row">
+                    <div class="col-xs-12 game-m-col">
+                        <div id="mcard5" class="game-m-card">
+                            <div class="card bg-black">
+                                5
+                            </div>
+                            <div class="card bg-blue-3 text">
+                                You
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin0 game-m-row">
+                    <div class="col-xs-6 game-m-col">
+                        <div id="mcard6" class="game-m-card">
+                            <div class="card bg-black">
+                                6
+                            </div>
+                            <div class="card bg-blue-4 text">
+                                Got
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 game-m-col">
+                        <div id="mcard7" class="game-m-card">
+                            <div class="card bg-black">
+                                7
+                            </div>
+                            <div class="card bg-white color-black text">
+                                It
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tablet pc large -->
+            <div class="visible-sm visible-md visible-lg">
+                <div class="row margin0 game-d-row">
+                    <div class="col-xs-4 padding0 game-d-col">
+                        <div id="dcard1" class="game-d-card">
+                            <div class="card front bg-black">
+                                1
+                            </div>
+                            <div class="card bg-blue-1 text">
+                                If
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 padding0 game-d-col">
+                        <div id="dcard2" class="game-d-card">
+                            <div class="card bg-black">
+                                2
+                            </div>
+                            <div class="card bg-blue-1 text">
+                                You
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 padding0 game-d-col">
+                        <div id="dcard5" class="game-d-card">
+                            <div class="card bg-black">
+                                5
+                            </div>
+                            <div class="card bg-blue-3 text">
+                                You
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin0 game-d-row">
+                    <div class="col-xs-4 padding0 game-d-col">
+                        <div id="dcard3" class="game-d-card">
+                            <div class="card bg-black">
+                                3
+                            </div>
+                            <div class="card bg-blue-1 text">
+                                Want
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 padding0 game-d-col">
+                        <div id="dcard4" class="game-d-card">
+                            <div class="card bg-black">
+                                4
+                            </div>
+                            <div class="card bg-blue-2 text">
+                                It
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 padding0 game-d-col">
+                        <div class="row game-d-row margin0">
+                            <div id="dcard6" class="game-d-card half-card">
+                                <div class="card bg-black">
+                                    6
+                                </div>
+                                <div class="card bg-blue-4 text">
+                                    Got
+                                </div>
+                            </div>
+                            <div id="dcard7" class="game-d-card half-card">
+                                <div class="card bg-black">
+                                    7
+                                </div>
+                                <div class="card bg-white color-black text">
+                                    It
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <main>
+
+        <!-- menu -->
+        <section id="menu" class="section menu">
+            <div class="row">
+                <div class="col-xs-6 padding0">
+                    <div id="part1" class="part bg-white color-blue-1">
+                        <i class="fa fa-male"></i>
+                    </div>
+                </div>
+                <div class="col-xs-6 padding0">
+                    <div id="part2" class="part bg-white color-blue-2">
+                        <i class="fa fa-book"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 padding0">
+                    <div id="part3" class="part bg-white color-blue-3">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="col-xs-6 padding0">
+                    <div id="part4" class="part bg-white color-blue-4">
+                        <i class="fa fa-rss"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--./menu-->
+
+        <!-- me -->
+        <section id="me" class="section me">
+            <!--Navigation -->
+            <nav id="main-nav1" class="navbar navbar-fixed-top navbar-default">
+                <div class="navbar-header">
+                    <a title="ir al menu" class="navbar-brand" href="javascript:void(0);">
+                        <div>
+                            <i class="fa fa-chevron-left"></i>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+            <div class="container">
+                <p class="tag pull-right" class="pull-right">#mode:yo</p>
+                <h1 class="pull-left wow bounceInLeft" data-wow-delay="0s">hola</h1>
+                <h1 style="display:none">Sergio Gordillo</h1>
+                <div class="clearfix"></div>
+                <h2 class="pull-left">soy Sergio</h2>
+                <div class="clearfix"></div>
+                <h3 class="pull-right wow bounceInRight" data-wow-delay="1s">me gusta lo que hago, <b>y se nota</b>. aprender se me da bien, <b>y no dejo de hacerlo</b>.</br> intento ser diferente, <b>y a veces lo consigo</b>.</h3>
+                <div class="clearfix"></div>
+                <div class="heart-cont">
+                    <p class="center heart wow bounceIn" data-wow-delay="1.5s"><i data-wow-iteration="1000" class="wow pulse fa fa-heart"></i></p>
+                </div>
+                <div class="">
+                    <div class="social pull-right">
+                        <a title="Perfil de Sergio Gordillo en Google+" target="_blank" href="https://plus.google.com/+SergioGordilloGallardo"><i class="wow fadeIn fa fa-google-plus" data-wow-delay="2s"></i></a>
+                        <a title="Perfil de Sergio Gordillo en Twitter" target="_blank" href="https://twitter.com/Sergio_Gordillo"><i class="wow fadeIn fa fa-twitter" data-wow-delay="2.2s"></i></a>
+                        <a title="Perfil de Sergio Gordillo en Facebook" target="_blank" href="https://www.facebook.com/sergio.gordillo"><i class="wow fadeIn fa fa-facebook-official" data-wow-delay="2.4s"></i></a>
+                        <a title="Perfil de Sergio Gordillo en Linkedin" target="_blank" href="https://www.linkedin.com/in/sgordillo"><i class="wow fadeIn fa fa-linkedin" data-wow-delay="2.6s"></i></a>
+                        <a title="Perfil de Sergio Gordillo en Youtube" target="_blank" href="https://www.youtube.com/channel/UChODvjGAiu_LaEmANV1acBg"><i class="wow fadeIn fa fa-youtube-play" data-wow-delay="2.8s"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="container">
+                    <h3 class="quote" class="pull-left">"La clave no reside en pensarlo,</br> tampoco está en intentarlo.</br> Consiste en insistir sin descanso hasta lograrlo."</h3>
+                </div>
+            </div>
+        </section>
+        <!--./me-->
+
+        <!-- edu -->
+        <section id="edu" class="section edu">
+            <!--Navigation -->
+            <nav id="main-nav2" class="navbar navbar-fixed-top navbar-default">
+                <div class="navbar-header">
+                    <a title="Ir al menu" class="navbar-brand" href="javascript:void(0);">
+                        <div>
+                            <i class="fa fa-chevron-left"></i>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+            <section class="section hero">
+                <div class="overlay">
+                    <div class="container">
+                        <p class="tag pull-right" class="pull-right">#mode:standard</p>
+                        <div class="clearfix"></div>
+                        <p class="claim">algo que destacar? veamos...</p>
+                        <div class="center">
+                            <a title="más de sergio gordillo" class="cta margin-40 smooth" href="#tldr"><i class="wow bounce fa fa-chevron-down" data-wow-delay="2s"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="tldr" class="section short-resume bg-white color-black">
+                    <div class="container">
+                        <div class="headline">
+                            TL;DR
+                        </div>
+                        <div class="content">
+                            <p>Soy Sergio Gordillo, tengo 26 años y nací en Cádiz, de casualidad. Viví en Cáceres toda mi juventud. Desde hace 9 años estoy en Madrid buscando mi sitio en el mundo. Inconformista por naturaleza, o necesidad, nunca lo sabré.
+                            Estudíe Ingeniería de Telecomunicación, por entonces me gustaba aquello de las ondas. He trabajado toda mi vida (o al menos los úlitmos 6 años), de profe particular, para empresas, como freelance, e incluso junto con un amigo creamos y hundimos una startup :).
+                            Mi mente se alimenta a base de viajes de metro y bus donde crear ideas, pocas las he realizado, algunas las estoy llevando a cabo ahora mismo, otras las haré próximamente. Todo en su momento.
+                            Soy persona y sé desarrollar (que no al revés). Ni el informático, ni el técnico, ni el programador. Si quieres contactarme, llámame Sergio, o Gordillo.
+                            Si te interesa qué cosas sé, tendrás que leerte el texto de abajo.</p>
+                        </div>
+                    </div>
+            </section>
+            <section class="section hero hidden-xs">
+                <div class="overlay">
+                    <div class="container">
+                        <p class="tag pull-right" class="pull-right">&nbsp;</p>
+                        <div class="clearfix"></div>
+                        <p class="claim">primeros pero intensos pasos</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section long-resume color-black">
+                    <div class="container">
+                        <div class="headline">
+                            <i class="fa fa-battery-1"></i> 2007 - 2012
+                        </div>
+                        <div class="content">
+                            <p>Recién llegado a Madrid, con 18 años. No tenía nada mejor que hacer que estudiar mi carrera... Lo gracioso es que lo conseguí. 5 años = 5 cursos. Lo suyo me costó pero mereció la pena. Conocí a gente muy buena por entonces. Trabajé en varios laboratorios de la Universidad Politécnica de Madrid durante 2 años, como profesor particular otro más.
+                            Participé en varios proyectos relacionados con las redes móviles 4G durante los 2 últimos años de carrera y basé en en dichos trabajos mi Proyecto Fin de Carrera "Simulación de un sistema ofdm sobre canal de propagación multitrayecto" con una nota de 9,5.
+                            De ésta época hay demasiado que destacar, pero poco de interés en este sentido, si quieres saber más de mi vida, pregúntame.</p>
+                        </div>
+                    </div>
+            </section>
+            <section class="section hero hidden-xs">
+                <div class="overlay">
+                    <div class="container">
+                        <p class="tag pull-right" class="pull-right">&nbsp;</p>
+                        <div class="clearfix"></div>
+                        <p class="claim">locura y pies en la tierra</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section long-resume bg-white color-black">
+                    <div class="container">
+                        <div class="headline">
+                            <i class="fa fa-battery-2"></i> 2012 - 2013
+                        </div>
+                        <div class="content">
+                            <p>Salto a la empresa privada: entré en el área de Nuevos Negocios de Telefónica donde trabajé durante un año. Principalmente mi trabajo se basaba en realizar seguimiento de negocio y auditoría de servicios digitales y nuevas aplicaciones de la empresa. Con la mosca detrás de la oreja
+                            desde siempre, hablé con un amigo y nos autoconvencimos de tener el negocio del siglo. Época de mucho café y poco sueño. Mucho aprendido y poco por lo que arrepentirse. Volvería y volveré a hacerlo, solo es cuestión de tiempo. Conseguimos varios proyectos con la Junta de Andalucía y Extremadura y otras empresas privadas, además salimos en el periódico :)</p>
+                            <a title="andrap en diario cordoba" target="_blank" href="http://www.diariocordoba.com/noticias/cordobalocal/diario-cordoba-desarrolla-app-guia-tapa-movil_865780.html">Ver noticia</a>
+                        </div>
+                    </div>
+            </section>
+            <section class="section hero hidden-xs">
+                <div class="overlay">
+                    <div class="container">
+                        <p class="tag pull-right" class="pull-right">&nbsp;</p>
+                        <div class="clearfix"></div>
+                        <p class="claim">enfocado en todo</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section long-resume color-black">
+                    <div class="container">
+                        <div class="headline">
+                            <i class="fa fa-battery-3"></i> 2013 - 2015
+                        </div>
+                        <div class="content">
+                            <p>Cosas de la vida, me aparté del proyecto de <a title="ir a andrap" href="http://www.andrap.com" target="_blank">Andrap</a> y pasé al área de Marketing Online de Teléfonica. Mucho aprendido en dos años y medio. Casi todo por cuenta propia :)
+                            Profesionalmente involucrado en múltiples proyectos: Landings Pages, desarrollos full stack en GCP, Generación de Leads, definición e implantación de métricas, gestión de tags, optimización de rendimiento web, Implantación de modelos de tracking y atribución de ventas (AdWords, SEO, DoubleClick, Afiliados, Mailing, etc…), A/B testing, personalización, etc</p>
+                            <p>Casi todo lo que sé, lo he aprendido buscándome la vida, no es que me alegre de ello, es que no me ha quedado otra. Lo peor es que se ha convertido en un vicio</p>
+                             <ul>
+                                 <li><b>General y proyectos:</b> Business Leadership, Scrum, Product Design</li>
+                                 <li><b>Cloud:</b> Amazon Web Services (S3, EC2, EC2 Container), Google Cloud Platform (App Engine, Compute Engine, Container Engine, Datastore, Endpoints, Kubernetes), Digital Ocean, Heroku(NodeJS Environment), Firebase (Web Apps with AngularFire)</li>
+                                 <li><b>Infrastructura:</b> PaaS Amazon o Google, Docker, Docker+Kubernetes, NodeJS, Java, LAMP, Static Web Pages (One page, Angular Web Apps)</li>
+                                 <li><b>Lenguajes:</b> HTML, JS, NodeJS, AngularJS, Java</li>
+                                 <li><b>Desarrollo:</b> NodeJS, npm, gulp, bower, yeoman, Git, Github, Codeship</li>
+                                 <li><b>Web Metrics:</b> (Google Analytics), Tag Management(Google Tag Manager, Tealium, DDM)</li>
+                                 <li><b>Marketing Online:</b> Inbound Marketing (Certificado), SEO, SEM (Certificado), Adwords Scripting, Double-click integrations (Certificado), Google Analytics (Certifcado)</li>
+                                 <li><b>eCommerce:</b> (WooCommerce, Shopify)</li>
+                                 <li><b>Apps:</b> Wordpress, Ghost, Instapage, Shopify, Mailchimp, MailGun</li>
+                                 <li><b>Otros:</b> DevOps, Web Automation, Web Performance</li>
+                             </ul>
+                        </div>
+                    </div>
+            </section>
+            <section class="section hero hidden-xs">
+                <div class="overlay">
+                    <div class="container">
+                        <p class="tag pull-right" class="pull-right">&nbsp;</p>
+                        <div class="clearfix"></div>
+                        <p class="claim">menos racional</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section long-resume bg-white color-black">
+                    <div class="container">
+                        <div class="headline">
+                            <i class="fa fa-battery-4"></i> 2016
+                        </div>
+                        <div class="content">
+                            <p>La actitud es mi fuerte. Soluciono problemas, o al menos lo intento.</p>
+                            <p>Qué estoy estudiando? Cambio radical. Aprender más cosas no significa olvidar lo anterior, no?</p>
+                            <ul>
+                                <li><b>Android Development</b></li>
+                                <li><b>Data Analysis:</b> Analyst Process, Python, Anaconda2, NumPhy</li>
+                                <li><b>Maths:</b> Statistics for analyze Data</li>
+                                <li><b>Machine Learning:</b> Classification (SVMs, Decision Trees), Features, Validation and Evalutaion</li>
+                                <li><b>Deep Learning:</b> Deep Neural Networks, Convolutional Neural Networks, Deep Models for Text and Sequences</li>
+                            </ul>
+                        </div>
+                    </div>
+            </section>
+            <section class="section hero">
+                <div class="overlay">
+                    <div class="container">
+                        <p class="tag pull-right" class="pull-right">&nbsp;</p>
+                        <div class="clearfix"></div>
+                        <p class="claim">conoce la esencia</p>
+                        <a title="Ir a Me" href="javascript:void(0)" class="center btn btn-raised btn-default toMe">Descúbrelo<div class="ripple-container"></div></a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!--./edu-->
+
+        <!-- personal -->
+        <section id="personal" class="section personal">
+            <!--Navigation -->
+            <nav id="main-nav3" class="navbar navbar-fixed-top navbar-default">
+                <div class="navbar-header">
+                    <a title="Ir al menu" title="" class="navbar-brand" href="javascript:void(0);">
+                        <div>
+                            <i class="fa fa-chevron-left"></i>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+            <section class="section hero bg-blue-3">
+                <div class="overlay">
+                    <div class="container">
+                        <p class="tag pull-right" class="pull-right">#MODE:PRO</p>
+                        <div class="clearfix"></div>
+                        <p class="claim">estoy con ello... :(</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!--./personal -->
+
+        <!--blog-->
+        <section id="blog" class="section blog">
+            <!--Navigation -->
+            <nav id="main-nav4" class="navbar navbar-fixed-top navbar-default">
+                <div class="navbar-header">
+                    <a title="" class="navbar-brand" href="javascript:void(0);">
+                        <div>
+                            <i class="fa fa-chevron-left"></i>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+            <section class="section hero">
+                <div class="overlay">
+                    <div class="container">
+                        <p class="tag pull-right" class="pull-right">#MODE:SIMPLE</p>
+                        <div class="clearfix"></div>
+                        <p class="claim">una oportunidad?</p>
+                        <a title="Ir al Blog de Sergio Gordillo" target="-_blank" href="http://blog.sergiogordillo.com/" class="center btn btn-raised btn-default">IR AL BLOG<div class="ripple-container"></div></a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!--./Blog-->
+    </main>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/bootstrap-material-design/dist/js/material.js"></script>
+    <script src="/bower_components/bootstrap-material-design/dist/js/ripples.js"></script>
+    <script src="/bower_components/flip/src/flip.js"></script>
+    <script src="/bower_components/wow/dist/wow.js"></script>
+    <script src="/bower_components/headroom.js/dist/headroom.js"></script>
+    <script src="/bower_components/headroom.js/dist/jQuery.headroom.js"></script>
+    <script src="/bower_components/headroom.js/dist/angular.headroom.js"></script>
+    <script src="/bower_components/vegas/dist/vegas.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap/js/affix.js"></script>
+    <script src="/bower_components/bootstrap/js/alert.js"></script>
+    <script src="/bower_components/bootstrap/js/dropdown.js"></script>
+    <script src="/bower_components/bootstrap/js/tooltip.js"></script>
+    <script src="/bower_components/bootstrap/js/modal.js"></script>
+    <script src="/bower_components/bootstrap/js/transition.js"></script>
+    <script src="/bower_components/bootstrap/js/button.js"></script>
+    <script src="/bower_components/bootstrap/js/popover.js"></script>
+    <script src="/bower_components/bootstrap/js/carousel.js"></script>
+    <script src="/bower_components/bootstrap/js/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap/js/collapse.js"></script>
+    <script src="/bower_components/bootstrap/js/tab.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
