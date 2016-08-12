@@ -210,9 +210,10 @@
         // Do not delay load of page with async functionality: Wait for window load
         window.addEventListener('load',function(){
             //$('#initial-loader').remove();
-            $('#initial-loader').fadeOut(7000, function(){
+            $('#initial-loader').fadeOut(6000, function(){
                 $('#initial-loader').remove();
-                $('#game').fadeIn(2000);
+                $('main').show();
+                $('#me').fadeIn(1000);
             });
 
 

@@ -605,8 +605,8 @@ main .section.me h1{
 main .section.me h2{
     font-size: 40px;
     position: relative;
-    left: 20px;
-    bottom: 20px;
+    right: 60px;
+    top: 40px;
     transition: all 1s ease;
     transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
@@ -640,11 +640,18 @@ main .section.me .heart{
     color: rgb(255,0,0);
 }
 
+main .section.me .social{
+    margin: 80px 0 0 0;
+}
+
 main .section.me .social i{
     font-size: 50px;
     margin: 0 20px;
 }
 
+main .section.me .social i.fa-github{
+    color: #000000;
+}
 main .section.me .social i.fa-google-plus{
     color: #d34836;
 }
